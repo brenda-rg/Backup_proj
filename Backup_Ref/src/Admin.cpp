@@ -17,6 +17,7 @@ Admin::Admin(){}
 void Admin::displayMainMenu() {
 	int choice;
 	string taskName;
+	int id;
 
 	while (true)
 	{
@@ -26,12 +27,14 @@ void Admin::displayMainMenu() {
 			<< "1. Display Tasks\n"
 			<< "2. Add Task\n"
 			<< "3. Edit Task \n"
-            << "4. Exit Program\n"
+			<< "4. Delete Task \n"
+            << "5. Exit Program\n"
 			<< "Please select an option: ";
 
 		try {
 			cin >> choice;
-			if (!(choice >= 1 && choice <= 4))
+			cin.ignore(numeric_limits<streamsize>::max(),'\n');
+			if (!(choice >= 1 && choice <= 5))
 				throw out_of_range("Please input a valid choice");
 
 			switch (choice) {
@@ -41,8 +44,6 @@ void Admin::displayMainMenu() {
 
 			case 2:
 				cout << "Enter Task Name: \n";
-				cin.clear();
-				cin.ignore();
 				getline(cin, taskName);
 				schedule.addTask(taskName);
 				break;
@@ -50,8 +51,15 @@ void Admin::displayMainMenu() {
             case 3:
 				displayEditTask();
                 break;
-
 			case 4:
+				schedule.displayTaskList();
+				cout << "Enter Task ID to delete: \n";
+				cin >> id;
+				cin.ignore(numeric_limits<streamsize>::max(),'\n');
+				schedule.removeTask(id);
+				break;
+
+			case 5:
 				cout << "\n Goodbye! \n";
 				exit(0);
 				break;
@@ -74,6 +82,7 @@ void Admin::displayTaskList()
 	int choice;
 	string taskName;
 	UserSort s;
+	int idnum;
 	while (1) {
 
 		clearScreen();
@@ -83,14 +92,16 @@ void Admin::displayTaskList()
 			<< "1. Return to Main Menu\n"
 			<< "2. Add Task\n"
 			<< "3. Edit Task\n"
-			<< "4. Sort Alphabetically\n"
-			<< "5. Sort Chronologically \n"
-			<< "6. Sort by Priority\n"
+			<< "4. Delete Task\n"
+			<< "5. Sort Alphabetically\n"
+			<< "6. Sort Chronologically \n"
+			<< "7. Sort by Priority\n"
 			<< "Please select an option: ";
 
 		try {
 			cin >> choice;
-			if (!(choice >= 1 && choice <= 6))
+			cin.ignore(numeric_limits<streamsize>::max(),'\n');
+			if (!(choice >= 1 && choice <= 7))
 				throw out_of_range("Please input a valid choice");
 
 				switch(choice) {
@@ -99,8 +110,6 @@ void Admin::displayTaskList()
 						break;
 					case 2:
 						cout << "Enter Task Name: \n";
-						cin.clear();
-						cin.ignore();
 						getline(cin, taskName);
 						schedule.addTask(taskName);
 					break;
@@ -108,12 +117,18 @@ void Admin::displayTaskList()
 						displayEditTask();
 						break;
 					case 4:
-						s.getTaskByAlpha(schedule.getTasks());
+						cout << "Enter Task ID to delete: \n";
+						cin >> idnum;
+						cin.ignore(numeric_limits<streamsize>::max(),'\n');
+						schedule.removeTask(idnum);
 						break;
 					case 5:
-						s.getTaskByChrono(schedule.getTasks());
+						s.getTaskByAlpha(schedule.getTasks());
 						break;
 					case 6:
+						s.getTaskByChrono(schedule.getTasks());
+						break;
+					case 7:
 						s.getTaskByPriority(schedule.getTasks());
 						break;
 				}
@@ -135,13 +150,11 @@ void Admin::displayEditTask() {
 	int change;
 
 	while (true)
-	{	
+	{
 		clearScreen();
 		schedule.displayTaskList();
 		cout << endl << endl;
 		cout << "Enter Task Id or type -1 to return to main menu: \n";
-		cin.clear();
-		cin.ignore();
 		try {
 			cin >> choice;
 			if (!(choice >= -1 && choice <= schedule.getTaskSize()-1))
@@ -167,9 +180,8 @@ void Admin::displayEditTask() {
 					<< "8. add/edit priority" << endl
 					<< "9. return" << endl;
 					try {
-						cin.clear();
-						cin.ignore();
 						cin >> change;
+						cin.ignore(numeric_limits<streamsize>::max(),'\n');
 						if (!(choice >= 1 && choice <= 9))
 							throw out_of_range("Please input a valid choice");
 							schedule.editTask(choice, change);
@@ -193,6 +205,7 @@ void Admin::displayEditTask() {
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 		}
 		displayEditTask();
+		
 	}
 }
 

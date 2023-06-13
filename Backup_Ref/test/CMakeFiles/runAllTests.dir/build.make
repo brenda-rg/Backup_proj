@@ -153,10 +153,24 @@ CMakeFiles/runAllTests.dir/testPriorityTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/testPriorityTask.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/testPriorityTask.cpp -o CMakeFiles/runAllTests.dir/testPriorityTask.cpp.s
 
+CMakeFiles/runAllTests.dir/testUserSort.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/testUserSort.cpp.o: testUserSort.cpp
+CMakeFiles/runAllTests.dir/testUserSort.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runAllTests.dir/testUserSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/testUserSort.cpp.o -MF CMakeFiles/runAllTests.dir/testUserSort.cpp.o.d -o CMakeFiles/runAllTests.dir/testUserSort.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/testUserSort.cpp
+
+CMakeFiles/runAllTests.dir/testUserSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/testUserSort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/testUserSort.cpp > CMakeFiles/runAllTests.dir/testUserSort.cpp.i
+
+CMakeFiles/runAllTests.dir/testUserSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/testUserSort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/testUserSort.cpp -o CMakeFiles/runAllTests.dir/testUserSort.cpp.s
+
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Tag.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TagTask.cpp.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/PriorityTask.cpp.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskList.cpp.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o -MF CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o.d -o CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o -c /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp
 
 CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.i: cmake_force
@@ -287,6 +301,7 @@ runAllTests_OBJECTS = \
 "CMakeFiles/runAllTests.dir/testTagTask.cpp.o" \
 "CMakeFiles/runAllTests.dir/testTag.cpp.o" \
 "CMakeFiles/runAllTests.dir/testPriorityTask.cpp.o" \
+"CMakeFiles/runAllTests.dir/testUserSort.cpp.o" \
 "CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o" \
 "CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o" \
 "CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o" \
@@ -306,6 +321,7 @@ bin/runAllTests: CMakeFiles/runAllTests.dir/testVerifyDate.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/testTagTask.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/testTag.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/testPriorityTask.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/testUserSort.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/Admin.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskBase.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/DateTimeTask.cpp.o
@@ -320,7 +336,7 @@ bin/runAllTests: lib/libgtest.a
 bin/runAllTests: lib/libgtest_main.a
 bin/runAllTests: lib/libgtest.a
 bin/runAllTests: CMakeFiles/runAllTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/runAllTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable bin/runAllTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

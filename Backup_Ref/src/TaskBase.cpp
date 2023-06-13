@@ -48,4 +48,8 @@ string TaskBase::get_description() {
     return this->description;
 }
 
+void TaskBase::set_id(int id) {
+    this->task_id = id;
+}
+
 #endif //TASKBASE_CPP

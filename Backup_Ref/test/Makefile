@@ -626,6 +626,30 @@ testTaskBase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/testTaskBase.cpp.s
 .PHONY : testTaskBase.cpp.s
 
+testUserSort.o: testUserSort.cpp.o
+.PHONY : testUserSort.o
+
+# target to build an object file
+testUserSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/testUserSort.cpp.o
+.PHONY : testUserSort.cpp.o
+
+testUserSort.i: testUserSort.cpp.i
+.PHONY : testUserSort.i
+
+# target to preprocess a source file
+testUserSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/testUserSort.cpp.i
+.PHONY : testUserSort.cpp.i
+
+testUserSort.s: testUserSort.cpp.s
+.PHONY : testUserSort.s
+
+# target to generate assembly for a file
+testUserSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/testUserSort.cpp.s
+.PHONY : testUserSort.cpp.s
+
 testVerifyDate.o: testVerifyDate.cpp.o
 .PHONY : testVerifyDate.o
 
@@ -713,6 +737,9 @@ help:
 	@echo "... testTaskBase.o"
 	@echo "... testTaskBase.i"
 	@echo "... testTaskBase.s"
+	@echo "... testUserSort.o"
+	@echo "... testUserSort.i"
+	@echo "... testUserSort.s"
 	@echo "... testVerifyDate.o"
 	@echo "... testVerifyDate.i"
 	@echo "... testVerifyDate.s"

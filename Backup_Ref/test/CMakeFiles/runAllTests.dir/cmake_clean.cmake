@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/runAllTests.dir/testTagTask.cpp.o.d"
   "CMakeFiles/runAllTests.dir/testTaskBase.cpp.o"
   "CMakeFiles/runAllTests.dir/testTaskBase.cpp.o.d"
+  "CMakeFiles/runAllTests.dir/testUserSort.cpp.o"
+  "CMakeFiles/runAllTests.dir/testUserSort.cpp.o.d"
   "CMakeFiles/runAllTests.dir/testVerifyDate.cpp.o"
   "CMakeFiles/runAllTests.dir/testVerifyDate.cpp.o.d"
   "bin/runAllTests"

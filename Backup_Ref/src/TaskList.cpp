@@ -2,14 +2,13 @@
 #include <ostream>
 #include "../header/TaskList.h"
 #include "../header/Task.h"
-#include <list>
+#include <vector>
 
 using namespace std;
 
 TaskList::TaskList() {
     name = "Schedule";
     tasks.clear();
-    it = tasks.begin();
     size = 0;
 }
 
@@ -19,18 +18,25 @@ void TaskList::addTask(string name){
     size++;
 }
 
-void TaskList::removeTask(int id) {
-    it = findTask(id);
-    tasks.erase(it);
-    size = size == 0?  0 : --size;
-    it = tasks.begin();
+void TaskList::removeTask(int idnum) {
+    if(this->size > 0) {
+        vector<PriorityTask>::iterator it = findTask(idnum);
+        it = tasks.erase(it);
+        --(this->size);
+        updateTaskId();
+    }
+    else {
+        throw invalid_argument("No tasks present, cannot delete");
+    }
 }
 
 void TaskList::editTask(int id, int change) {
-    it = findTask(id);
+    vector<PriorityTask>::iterator it = findTask(id);
     string input;
     int num;
     switch(change) {
+        case 9:
+            break;
         case 1:
             cout << "please enter the name you would like to use " << endl;
             getline(cin, input);
@@ -65,9 +71,8 @@ void TaskList::editTask(int id, int change) {
         case 8:
             cout << "please enter the priority (1-10) of the task 1: Urgent -> 10: Doesn't matter" << endl;
             cin >> num;
+            cin.ignore(numeric_limits<streamsize>::max(),'\n');
             it->set_priority(num);
-            break;
-        case 9:
             break;
     }
 
@@ -83,7 +88,7 @@ void TaskList::displayTaskList() {
     << string(59, '_')
     << endl;
 
-    for(it = tasks.begin(); it != tasks.end(); it++) {
+    for(vector<PriorityTask>::iterator it = tasks.begin(); it != tasks.end(); it++) {
         cout << endl
         << endl
         << it->get_id()
@@ -120,13 +125,13 @@ void TaskList::displayTaskList() {
 }
 
 vector<PriorityTask>::iterator TaskList::findTask(int id) {
-    for (vector<PriorityTask>::iterator it = tasks.begin(); it != tasks.end();)
+    for (vector<PriorityTask>::iterator its = tasks.begin(); its != tasks.end();)
     {
-        if (id == it->get_id()){
-            return it;
+        if(id == its->get_id()){
+            return its;
         }
         else {
-            ++it;
+            ++its;
         }
     }
     throw invalid_argument("task not found, please enter valid task to delete");
@@ -137,4 +142,13 @@ int TaskList::getTaskSize() {
 }
 vector<PriorityTask> & TaskList::getTasks() {
     return this->tasks;
+}
+
+void TaskList::updateTaskId() {
+    int i = 0;
+    for (vector<PriorityTask>::iterator it = tasks.begin(); it != tasks.end(); ++it)
+    {
+        it->set_id(i);
+        ++i;
+    }
 }

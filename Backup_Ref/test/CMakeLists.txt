@@ -8,7 +8,7 @@ add_subdirectory(googletest)
 include_directories(header src)
 link_libraries(gtest gtest_main)
 set(SOURCE_FILES ../src/Admin.cpp ../src/TaskBase.cpp ../src/DateTimeTask.cpp ../src/VerifyDate.cpp ../src/Tag.cpp ../src/TagTask.cpp ../src/PriorityTask.cpp ../src/TaskList.cpp ../src/UserSort.cpp)
-set(TEST_FILES testTaskBase.cpp testDateTimeTask.cpp testVerifyDate.cpp testTagTask.cpp testTag.cpp testPriorityTask.cpp)
+set(TEST_FILES testTaskBase.cpp testDateTimeTask.cpp testVerifyDate.cpp testTagTask.cpp testTag.cpp testPriorityTask.cpp testUserSort.cpp)
 
 add_executable(runAllTests
 ${TEST_FILES}

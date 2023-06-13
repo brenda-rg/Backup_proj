@@ -5161,8 +5161,7 @@ CMakeFiles/prog.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/TaskLi
   /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/header/DateTimeTask.h \
   /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/header/TaskBase.h \
   /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/header/VerifyDate.h \
-  /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/header/Task.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list
+  /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/header/Task.h
 
 CMakeFiles/prog.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp.o: /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/UserSort.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
@@ -7384,8 +7383,6 @@ CMakeFiles/prog.dir/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/main.c
 /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/main.cpp:
 
 /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/src/VerifyDate.cpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list:
 
 /Users/simonscholar/Desktop/Backup_proj/Backup_Ref/header/UserSort.h:
 

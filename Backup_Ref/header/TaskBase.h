@@ -22,6 +22,7 @@ class TaskBase {
 		~TaskBase();
 		//modifiers
 		void set_name(string);
+		void set_id(int);
 		void set_status(bool);
 		void set_description(string);
 		//accessors

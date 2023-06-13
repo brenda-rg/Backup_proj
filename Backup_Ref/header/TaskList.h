@@ -13,9 +13,9 @@ class TaskList {
     friend class PriorityTask;
     protected:
         vector<PriorityTask> tasks;
-        vector<PriorityTask>::iterator it;
         string name;
         int size;
+        void updateTaskId();
 
     public:
         TaskList();
