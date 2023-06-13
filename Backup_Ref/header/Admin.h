@@ -12,15 +12,14 @@ using namespace std;
 
 
 class Admin {
-	private:
-		TaskList tasks;
+	protected:
+		TaskList schedule;
 	public:
 		Admin();
 
 		void displayMainMenu();
 		void displayTaskList();
-		void displayCalendar();
-		void displaySettings();
+		void displayEditTask();
 		void clearScreen();
 };
 

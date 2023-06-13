@@ -1,17 +1,30 @@
+#ifndef BACKUP_REF_TAG_H
+#define BACKUP_REF_TAG_H
+
+//also include sql class
+
+#include "string"
 #include <iostream>
+using namespace std;
 
 class Tag {
-    private:
+        protected:
+        int tag_id;
+        string tag_name;
 
-    protected:
-    string tagName;
-    int tagId;
+        public:
+        //constuctors
+        Tag();
+        Tag(string);
+        Tag(int , string);
+        //modifiers
+        //void set_tag(string);
+        void set_tagId(int);
+        //accessors
+        string get_tag();
+        int get_id();
 
-    public:
-    Tag();
-    Tag(string);
-    void set_tag(string);
-    void set_id(int);
-    string get_tag();
-    int get_tagId();
-}
+};
+
+
+#endif //BACKUP_REF_TAG_H

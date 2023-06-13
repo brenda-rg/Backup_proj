@@ -1,33 +1,36 @@
-#include <iostream>
-#include "header/Tag.h"
+#ifndef TAG_CPP
+#define TAG_CPP
 
+//also include sql class
+
+#include "../header/Tag.h"
 using namespace std;
 
-string tagName;
-int tagId;
-
 Tag::Tag() {
-    tagName = ""
-    tagId = 0;
+    tag_id = 0;
+    tag_name = "";
 }
 
-Tag::Tag(string name) {
-    tagId = name;
-    tagId = 0;
+Tag::Tag(string tagName) {
+    tag_id = 0;
+    tag_name = tagName;
 }
 
-void Tag::set_tag(string newName) {
-    tagName = newName;
+Tag::Tag(int tags_size, string tagName) {
+    tag_id = tags_size;
+    tag_name = tagName;
 }
-
+//modifiers
 void Tag::set_tagId(int newId) {
-    tagId = newId;
+    tag_id = newId;
 }
-
+//accessors
 string Tag::get_tag() {
-    return tagName;
+    return tag_name;
+}
+int Tag::get_id() {
+    return tag_id;
 }
 
-int Tag::get_tagId() {
-    return tagId;
-}
+
+#endif //TAG_CPP

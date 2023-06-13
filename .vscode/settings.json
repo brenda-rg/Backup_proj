@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "stdexcept": "cpp",
+        "limits": "cpp",
+        "ios": "cpp"
+    },
+    "cmake.sourceDirectory": "/Users/simonscholar/Desktop/Backup_proj/Backup_Ref/test"
+}
