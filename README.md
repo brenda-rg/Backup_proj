@@ -53,7 +53,8 @@ To install the program:
 6. Now the program will be running and you can see what your choices are so follow the program instructions.
 
  ## Testing
- The program was validated using googletest Tests all compiled into one executable called runAllTests
+ The program was validated using googletest Unit Tests for each tested class were all compiled into one executable called runAllTests.
+ Tested constructors and functions for 6 classes.
 * To run tests use the command:$ cmake . 
 * $ make 
 * $ bin/runAllTests
